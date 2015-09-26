@@ -72,7 +72,7 @@ router.post('/contact', function(req, res, next) {
 });
 
 // recaptcha secret key
-var SECRET = '6Lf0lw0TAAAAADik_AI4DvuSkcyJLl-aEQ9a3ZBL';
+var SECRET = '6Le7mw0TAAAAAK8HlzXnh_sOE_5jqSuAuqWZ3duk';
 
 // helper function to call recaptcha API and parse response from Google - courtesy Jonathan Warner @jaxbot
 function verifyRecaptcha(key, callback) {
